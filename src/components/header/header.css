@@ -1,0 +1,16 @@
+.header-z {
+  width: 100%;
+  background: black;
+  position: fixed;
+  z-index:11;
+  top: 0%;
+
+  height: 50px;
+  background-image: radial-gradient(
+      at 0% 50%,
+      rgba(173, 255, 47, 0.4) 0,
+      transparent 30%
+    ),
+    radial-gradient(at 0% 60%, rgba(4, 4, 4, 0.7) 0, transparent 50%),
+    radial-gradient(at 100% 50%, rgba(0, 255, 255, 0.4) 0, transparent 30%);
+}

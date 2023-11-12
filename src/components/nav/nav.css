@@ -1,0 +1,48 @@
+.nav-init,
+.nav-skills,
+.nav-proyectos,
+.nav-zakdev {
+  font-weight: bold;
+  height: 1px;
+  color: rgb(249, 247, 247);
+  z-index: 100;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+  display: inline-block;
+  margin: 10px;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  margin-top: 20em;
+  height: 100px;
+  position: fixed;
+  padding: auto;
+}
+.nav-z {
+  margin-top: -21em;
+  margin-left: 35em;
+  z-index: 100;
+  animation: floatAnimation 3s ease-in-out infinite; 
+
+}
+.nav-link-z {
+  color: azure;
+
+}
+.nav-link-z:hover {
+  color: aqua;
+}
+/* */
+.menu-icon-nav {
+  margin-right: 1em;
+  color: aqua;
+}
+.menu-icon-nav:hover {
+  color: greenyellow;
+}

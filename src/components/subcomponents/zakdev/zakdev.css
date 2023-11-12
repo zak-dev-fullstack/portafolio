@@ -1,0 +1,78 @@
+/* Variables generales */
+:root {
+  --font-size-small: 18px;
+  --font-size-medium: 35px;
+  --font-size-large: 40px;
+}
+
+/* Estilos para la sección Bio */
+section.section-bio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15em;
+  margin-bottom: 4em;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  width: 80%;
+  margin-left: 2em;
+  font-weight: bold;
+}
+
+h2.bio-titulo {
+  font-size: var( --font-size-large);
+  color: aqua;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+h2.servicios-titulo {
+  font-size: var( --font-size-large);
+  font-weight: bold;
+  color: aqua;
+  margin-bottom: 2px;
+  margin-top: 2em;
+}
+
+h2.servicios-titulo:hover,
+h2.bio-titulo:hover {
+  color: white;
+}
+
+p.descripcion-bio {
+  font-size: var( --font-size-medium);
+  margin-left: 0%;
+  color: aliceblue;
+  line-height: 3em;
+}
+
+/* Estilos para la sección Servicios */
+ul.servicios-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-top: 2em;
+  color: aliceblue;
+}
+
+li.servicio-item {
+  font-size: var(--font-size-medium);
+  margin: 10px 0;
+  margin-bottom: 3em;
+  transition: color 0.3s ease-in-out;
+  line-height: 10px;
+}
+
+li.servicio-item:hover {
+  color: greenyellow;
+}
+
+
+  :root {
+    --font-size-small: 20px;
+    --font-size-medium: 30px;
+    --font-size-large: 35px;
+  }
+

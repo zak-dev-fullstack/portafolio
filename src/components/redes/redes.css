@@ -1,0 +1,15 @@
+.redes-container {
+  margin-left: 0%;
+  position: fixed;
+  z-index: 10;
+  bottom: -10;
+}
+
+.iconos-redes {
+  color: aqua;
+  margin-left: 15px;
+}
+
+.iconos-redes:hover {
+  color: greenyellow;
+}

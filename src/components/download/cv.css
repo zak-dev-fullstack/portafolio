@@ -1,0 +1,54 @@
+/*DOWNLOAD*/
+.boton-cv {
+ animation: floatAnimation 3s ease-in-out infinite;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  pointer-events: all;
+  cursor: pointer;
+  z-index: 11;
+  left: 0%;
+  width: 48%;
+  height: 23px;
+  padding: 0;
+  top: 0%;
+  border: 2px solid aqua;
+  border-radius: 6px;
+  font-size: 16px;
+  white-space: nowrap;
+  font-weight: bold;
+  position: fixed;
+  background-color: black;
+  margin-left: 8em;
+  margin-top: 1em;
+}
+.boton-cv:hover {
+  color: black;
+  font-weight: bold;
+  border: 2px solid greenyellow;
+  border-radius: 6px;
+}
+.text-d {
+  margin-top: -1.5em;
+  margin-left: 2em;
+  color: greenyellow;
+  font-size: 15px;
+}
+
+.icono-cv {
+  font-size: 20px;
+  margin-left: -5em;
+  color: greenyellow;
+}
+.cvdown {
+  display: flex;
+  align-items: center;
+}
+.link-cv {
+  margin: 0;
+  font-weight: bold;
+  color: greenyellow;
+}
+.link-cv:hover {
+  color: aqua;
+}

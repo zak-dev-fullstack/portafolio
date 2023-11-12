@@ -1,0 +1,33 @@
+/* SlideZ.css */
+div.slide-container {
+  top: 0%;
+  width: 100%;
+  height: 200px;
+  bottom: 0%;
+  position: absolute;
+  z-index: 10;
+  margin-top: 15em;
+}
+
+div.slide-item {
+  padding: 0px;
+}
+
+img.slide-image {
+  width: 80%;
+  height: 200px;
+  border: 1px solid aqua;
+  border-radius: 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+element.style {
+  display: none;
+}
+
+.slick-dots li button {
+  display: none;
+}

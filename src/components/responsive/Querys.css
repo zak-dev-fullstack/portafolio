@@ -1,0 +1,422 @@
+@media screen and (min-width: 281px) and (max-width: 320px) {
+  ul.menu-list {
+    margin-left: 2em;
+  }
+  img.zakdev-logo {
+    margin-left: 7.5em;
+  }
+  button.boton-cv {
+    width: 42%;
+    margin-left: 10em;
+  }
+
+  img.slide-image {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  ul.menu-list {
+    margin-left: 3em;
+  }
+  img.zakdev-logo {
+    margin-left: 8.5em;
+  }
+  button.boton-cv {
+    width: 40%;
+    margin-left: 12em;
+  }
+
+  img.slide-image {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 415px) {
+  ul.menu-list {
+    margin-left: 5em;
+  }
+  img.zakdev-logo {
+    margin-left: 10.5em;
+  }
+  button.boton-cv {
+    width: 32%;
+    margin-left: 16em;
+  }
+
+  img.slide-image {
+    margin-top: 2em;
+  }
+
+  section.section-portafolio {
+    justify-content: space-between;
+    padding: 0 4px;
+  }
+
+  .card-proyecto {
+    padding: 0 2px;
+  }
+  h2.servicios-titulo {
+    margin-left: 1em;
+  }
+  ul.servicios-list {
+    margin-left: 0.5em;
+  }
+}
+
+@media screen and (min-width: 416px) and (max-width: 500px) {
+  button.button-z-menu {
+    margin-left: 1.5em;
+  }
+  ul.menu-list {
+    margin-left: 8em;
+  }
+  img.zakdev-logo {
+    margin-left: 13em;
+  }
+  button.boton-cv {
+    width: 30%;
+    margin-left: 20em;
+  }
+
+  img.slide-image {
+    margin-top: 2em;
+  }
+  section.section-bio {
+    width: 100%;
+  }
+  h2.bio-titulo {
+    margin-left: 3em;
+  }
+  h2.servicios-titulo {
+    margin-left: 2em;
+  }
+  p.descripcion-bio {
+    margin-left: 10%;
+  }
+  ul.servicios-list {
+    margin-left: 2.5em;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 640px) {
+  div.menu-container {
+    display: none;
+  }
+
+  img.zakdev-logo {
+    margin-left: 3em;
+    margin-top: 3em;
+  }
+  button.boton-cv {
+    width: 22%;
+    margin-left: 25em;
+    margin-top: 4em;
+  }
+
+  img.slide-image {
+    margin-top: 2em;
+  }
+  section.section-bio {
+    width: 100%;
+  }
+  h2.bio-titulo {
+    margin-left: 3em;
+  }
+  h2.servicios-titulo {
+    margin-left: 2em;
+  }
+  p.descripcion-bio {
+    margin-left: 10%;
+  }
+  ul.servicios-list {
+    margin-left: 2.5em;
+  }
+
+  .nav-z {
+    margin-top: -21.5em;
+    margin-left: 5em;
+  }
+  .nav-link-z {
+    font-size: 16px;
+  }
+
+  div.typed-text-container {
+    font-size: 35px;
+    margin-top: -1em;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  div.menu-container {
+    display: none;
+  }
+
+  img.zakdev-logo {
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+  button.boton-cv {
+    width: 18%;
+    margin-left: 31em;
+    margin-top: 4em;
+  }
+
+  .slick-slide .slide-item img.slide-image {
+    width: 85%;
+    margin-top: 2em;
+    height: 400px;
+  }
+  section.section-bio {
+    width: 100%;
+  }
+  h2.bio-titulo {
+    margin-left: 3em;
+    font-size: 35px;
+  }
+  h2.servicios-titulo {
+    margin-left: 2em;
+    font-size: 35px;
+  }
+
+  p.descripcion-bio {
+    margin-left: 10%;
+    font-size: 30px;
+  }
+  ul.servicios-list {
+    margin-left: 2.5em;
+    font-size: 30px;
+  }
+
+  .nav-z {
+    margin-top: -22em;
+    margin-left: 8em;
+  }
+  .nav-link-z {
+    font-size: 18px;
+  }
+
+  div.typed-text-container {
+    font-size: 35px;
+    margin-top: -1em;
+  }
+  .redes-container .iconos-redes {
+    width: 30px;
+    height: 30px;
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  div.menu-container {
+    display: none;
+  }
+
+  img.zakdev-logo {
+    margin-left: 2em;
+    margin-top: 1em;
+    width: 200px;
+    height: 200px;
+  }
+  button.boton-cv {
+    width: 18%;
+    margin-left: 43em;
+    margin-top: 4em;
+    height: 30px;
+  }
+  .text-d {
+    font-size: 20px;
+  }
+  .icono-cv {
+    font-size: 25px;
+  }
+
+  .slick-slide .slide-item img.slide-image {
+    width: 85%;
+    margin-top: 4em;
+    height: 600px;
+  }
+  section.section-bio {
+    width: 100%;
+  }
+  h2.bio-titulo {
+    margin-left: 3em;
+    font-size: 40px;
+  }
+  h2.servicios-titulo {
+    margin-left: 2em;
+    margin-top: 3em;
+  }
+
+  p.descripcion-bio {
+    margin-left: 10%;
+    font-size: 30px;
+  }
+  ul.servicios-list {
+    margin-left: 2.5em;
+    margin-top: 3em;
+  }
+
+  .nav-z {
+    margin-top: -22em;
+    margin-left: 12em;
+  }
+  .nav-link-z {
+    font-size: 25px;
+  }
+
+  div.typed-text-container {
+    font-size: 40px;
+    margin-top: -1em;
+  }
+  .redes-container .iconos-redes {
+    width: 30px;
+    height: 30px;
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  div.menu-container {
+    display: none;
+  }
+
+  img.zakdev-logo {
+    margin-left: 2em;
+    margin-top: 1em;
+    width: 200px;
+    height: 200px;
+  }
+  button.boton-cv {
+    width: 14%;
+    margin-left: 65em;
+    margin-top: 1em;
+    height: 30px;
+  }
+  .text-d {
+    font-size: 20px;
+  }
+  .icono-cv {
+    font-size: 25px;
+  }
+  .section-portafolio{
+    margin-left: 1em;
+    margin-top: 10em;
+    
+  }
+  .slick-slide .slide-item img.slide-image {
+    width: 85%;
+    margin-top: 4em;
+    height: 600px;
+  }
+
+  h2.bio-titulo {
+    margin-left: 20em;
+  }
+  h2.servicios-titulo {
+    margin-left: 20em;
+    margin-top: 4em;
+  }
+  p.descripcion-bio {
+    margin-left: 20%;
+        margin-top: 1em;
+  }
+  ul.servicios-list {
+    margin-left: 0em;
+    margin-top: 10em;
+  }
+
+  .nav-z {
+    margin-top: -22em;
+    margin-left: 12em;
+  }
+  .nav-link-z {
+    font-size: 30px;
+  }
+
+  div.typed-text-container {
+    font-size: 50px;
+    margin-top: -1em;
+  }
+  .redes-container .iconos-redes {
+    width: 30px;
+    height: 30px;
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  div.menu-container {
+    display: none;
+  }
+
+  img.zakdev-logo {
+    margin-left: 6em;
+    margin-top: 1em;
+    width: 200px;
+    height: 200px;
+  }
+  button.boton-cv {
+    width: 12%;
+    margin-left: 80em;
+    margin-top: 1em;
+    height: 30px;
+  }
+  .text-d {
+    font-size: 20px;
+  }
+  .icono-cv {
+    font-size: 25px;
+  }
+  .section-portafolio{
+    margin-left: 10em;
+    margin-top: 10em;
+    
+  }
+  .section-portafolio .card-proyecto .img-proyecto {
+   
+    height: 250px !important;
+  }
+  
+
+  .slick-slide .slide-item img.slide-image {
+    width: 90%;
+    margin-top: 0em;
+    height: 450px;
+    margin-bottom: 5%;
+  }
+
+  h2.bio-titulo {
+    margin-left: 20em;
+  }
+  h2.servicios-titulo {
+    margin-left: 20em;
+    margin-top: 4em;
+  }
+  p.descripcion-bio {
+    margin-left: 20%;
+        margin-top: 1em;
+  }
+  ul.servicios-list {
+    margin-left: 0em;
+    margin-top: 10em;
+  }
+
+  .nav-z {
+    margin-top: -22em;
+    margin-left: 22em;
+  }
+  .nav-link-z {
+    font-size: 30px;
+  }
+
+  div.typed-text-container {
+    font-size: 50px;
+    margin-top: -1em;
+  }
+  .redes-container .iconos-redes {
+    width: 30px;
+    height: 30px;
+    animation: floatAnimation 3s ease-in-out infinite;
+  }
+}

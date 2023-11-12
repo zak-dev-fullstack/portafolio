@@ -1,8 +1,15 @@
+import PortafolioZ from "./components/subcomponents/portafolio/PortafolioZ";
+import TextPortafolio from "./components/texto/TextPortafolio";
 
 function App() {
   return (
     <>
-<h1>Portafolio</h1>
+    <>
+      <div className="container-pages">
+        <TextPortafolio />
+        <PortafolioZ />
+      </div>
+    </>
     </>
   );
 }

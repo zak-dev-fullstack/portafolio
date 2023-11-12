@@ -1,0 +1,27 @@
+.footer-z {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  max-height: 50%;
+  left: 0;
+  bottom: 0;
+  z-index: 11;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aqua;
+  background-image: radial-gradient(at 0% 50%, aqua 0, transparent 30%),
+    radial-gradient(at 0% 60%, rgb(4, 4, 4) 0, transparent 50%),
+    radial-gradient(at 100% 50%, greenyellow 0, transparent 30%);
+}
+
+.footer-z > h6 {
+  color: aqua;
+  margin: 0;
+}
+
+.footer-z > h6:hover {
+  color: greenyellow;
+}

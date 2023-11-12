@@ -1,0 +1,40 @@
+img.zakdev-logo {
+  margin-left: 6em;
+  animation: zakdev-logoAnimation 10s linear infinite alternate;
+  position: fixed;
+  top: 0%;
+  margin-top: 2.5em;
+  transform-origin: center center;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, box-shadow 0.0s ease-in-out,
+   transform-origin 0.3s ease-in-out;
+}
+img.zakdev-logo:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px aqua;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 2em greenyellow);
+}
+.zakdev-logo.clicked {
+ animation: zakdev-clickAnimation 1s linear forwards;
+}
+@keyframes zakdev-logoAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-2px, 2px);
+  }
+  50% {
+    transform: translate(2px, -2px);
+  }
+  75% {
+    transform: translate(-3px, 3px);
+  }
+}

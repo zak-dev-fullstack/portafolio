@@ -14,6 +14,9 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
 
   },
+  {
+    path:"/skills/"
+  }
 
 ]);
 

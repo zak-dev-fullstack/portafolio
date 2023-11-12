@@ -1,0 +1,109 @@
+/* Estilos para el botón de menú */
+div.menu-container {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: block;
+
+}
+
+button.button-z-menu {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: aqua;
+  margin-left: 1em;
+  margin-top: 0.4em;
+  animation: floatAnimation 3s ease-in-out infinite; 
+}
+
+.icon-x {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.menu {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 13%;
+  display: block;
+  padding: 0px;
+  z-index: 13;
+  overflow: auto;
+}
+
+ul.menu-list {
+  padding: 0px;
+  margin-top: 8em;
+  margin-left: 0.5em;
+  animation: floatAnimation 3s ease-in-out infinite;
+}
+
+li.menu-item {
+  font-size: 25px;
+  margin-bottom: 1.5em;
+  font-weight: bold;
+  opacity: 100;
+  transform: translateY(10px);
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+li.menu-item.show {
+  opacity: 100;
+  transform: translateY(0);
+}
+
+a.navlink-item {
+  margin: 10px 0;
+  color: aliceblue;
+  margin-left: 2em;
+}
+
+.menu-container:hover .icon-x {
+  display: inline-block;
+}
+
+.menu-item a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu-item a:hover {
+  color: aqua;
+}
+
+span.menu-icon {
+  color: aqua;
+  margin-right: 1em;
+}
+
+span.menu-icon:hover {
+  color: greenyellow;
+}
+
+@keyframes floatAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 90;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0px);
+  }
+}
