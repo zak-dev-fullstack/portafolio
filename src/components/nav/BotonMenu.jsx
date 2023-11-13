@@ -39,7 +39,7 @@ function BotonMenu() {
             <li className="menu-item">
               <Link
                 className="navlink-item"
-                to={`portafolio/:portafolioId`}
+                to={`portafolio/:portafolioId/`}
                 onClick={closeMenu}
               >
                 <span className="menu-icon">
@@ -51,7 +51,7 @@ function BotonMenu() {
             <li className="menu-item">
               <Link
                 className="navlink-item"
-                to={`skills/:skillsId`}
+                to={`skills/:skillsId/`}
                 onClick={closeMenu}
               >
                 <span className="menu-icon">
@@ -63,7 +63,7 @@ function BotonMenu() {
             <li className="menu-item">
               <Link
                 className="navlink-item"
-                to={`proyectos/:proyectosId`}
+                to={`proyectos/:proyectosId/`}
                 onClick={closeMenu}
               >
                 <span className="menu-icon">
@@ -75,7 +75,7 @@ function BotonMenu() {
             <li className="menu-item">
               <Link
                 className="navlink-item"
-                to={`zakdev/:zakdevId`}
+                to={`zakdev/:zakdevId/`}
                 onClick={closeMenu}
               >
                 <span className="menu-icon">
