@@ -15,6 +15,7 @@ import HeaderZD from "./components/header/HeaderZD";
 import FooterZD from "./components/footer/FooterZD";
 import Portafolio from "./pages/Portafolio";
 
+
 const router = createBrowserRouter([
   {
     path: "/portafolio/",
