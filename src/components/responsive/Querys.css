@@ -301,12 +301,19 @@
   }
 
   .slick-slide .slide-item img.slide-image {
-    width: 90%;
+    width: 100%;
+    max-width: 700px;
     margin-top: 0em;
-    height: 450px;
+    height: 350px;
     margin-bottom: 5%;
+    margin : 0 10px;
+  
+   
   }
- 
+ .section-bio{
+  left: 30%; 
+  transform: translateX(-50%); 
+ }
   h2.servicios-titulo,
   h2.bio-titulo {
     margin-left: 0em;
@@ -337,8 +344,8 @@
     margin-top: -1em;
   }
   .redes-container .iconos-redes {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     animation: floatAnimation 3s ease-in-out infinite;
   }
 }
