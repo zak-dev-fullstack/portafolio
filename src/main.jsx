@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "portafolio/:portafolioId",
-        element: <Portafolio />,
+        element: <Portafolio  />,
       },
       {
         path: "skills/:skillsId",
@@ -38,12 +38,13 @@ const router = createBrowserRouter([
         element: <Proyectos />,
       },
       { path: "zakdev/:zakdevId", element: <ZaKDeV /> },
-      {
-        path:"*",
-        element:<Navigate to='/portafolio/'/>
-      }
+     
     ],
   },
+  {
+    path:"*",
+    element:<Navigate to='/portafolio/'/>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
