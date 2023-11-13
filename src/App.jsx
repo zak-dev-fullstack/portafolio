@@ -11,6 +11,7 @@ function App() {
       <NavZ />
       <DownCv />
       <ZakdevLogo />
+
       <Redes />
       <Outlet />
     </>

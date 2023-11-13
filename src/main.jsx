@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import "./components/responsive/Querys.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Navigate} from "react-router-dom";
 import ErrorPage from "./error/error-page";
 import Skills from "./pages/Skills";
 import Proyectos from "./pages/Proyectos";
@@ -16,7 +16,10 @@ import FooterZD from "./components/footer/FooterZD";
 import Portafolio from "./pages/Portafolio";
 
 
+
 const router = createBrowserRouter([
+
+  
   {
     path: "/portafolio/",
     element: <App />,
@@ -35,16 +38,22 @@ const router = createBrowserRouter([
         element: <Proyectos />,
       },
       { path: "zakdev/:zakdevId", element: <ZaKDeV /> },
+      {
+        path:"*",
+        element:<Navigate to='/portafolio/'/>
+      }
     ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <ScrollIndicator />
-    <RouterProvider router={router} />
-    <HeaderZD />
-    <FooterZD />
-    <Particless />
-  </React.StrictMode>
+  <>
+    <React.StrictMode>
+      <ScrollIndicator />
+      <RouterProvider router={router} />
+      <HeaderZD />
+      <FooterZD />
+      <Particless />
+    </React.StrictMode>
+  </>
 );
