@@ -1,8 +1,9 @@
 .redes-container {
-  margin-left: 0%;
+  left: 50%; 
+  transform: translateX(-50%); 
   position: fixed;
-  z-index: 10;
-  bottom: -10;
+  z-index: 12;
+  bottom: 0%;
 }
 
 .iconos-redes {

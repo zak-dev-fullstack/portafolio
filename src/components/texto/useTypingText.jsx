@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef } from "react";
+/* eslint-disable react-refresh/only-export-components */
+import { useState, useEffect, useRef } from "react";
 
 const FORWARD = "forward";
 const BACKWARD = "backward";

@@ -1,10 +1,10 @@
-import Link from "next/link";
 import {
   GiAbstract065,
   GiAlienFire,
   GiAlienSkull,
   GiAncientSword,
 } from "react-icons/gi";
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 export default function NavZ() {
@@ -13,7 +13,7 @@ export default function NavZ() {
       <nav className="nav-z">
         <ul className="nav-header">
           <li className="nav-init">
-            <Link className="nav-link-z" href="/portafolio">
+            <Link className="nav-link-z" to={`portafolio/:portafolioId`}>
               <span className="menu-icon-nav">
                 <GiAbstract065 />
               </span>
@@ -21,7 +21,7 @@ export default function NavZ() {
             </Link>
           </li>
           <li className="nav-skills">
-            <Link className="nav-link-z" href="/skills">
+            <Link className="nav-link-z" to={`skills/:skillsId`}>
               <span className="menu-icon-nav">
                 <GiAlienFire />
               </span>
@@ -29,7 +29,7 @@ export default function NavZ() {
             </Link>
           </li>
           <li className="nav-proyectos">
-            <Link className="nav-link-z" href="/proyectos">
+            <Link className="nav-link-z" to={`proyectos/:proyectosId`}>
               <span className="menu-icon-nav">
                 <GiAlienSkull />
               </span>
@@ -37,7 +37,7 @@ export default function NavZ() {
             </Link>
           </li>
           <li className="nav-zakdev">
-            <Link className="nav-link-z" href="/zakdev">
+            <Link className="nav-link-z" to={`zakdev/:zakdevId`}>
               <span className="menu-icon-nav">
                 <GiAncientSword />
               </span>

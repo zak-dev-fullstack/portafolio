@@ -1,4 +1,3 @@
-"use client";
 import { useEffect, useState } from "react";
 import "./scrollindicator.css";
 export function ScrollIndicator() {

@@ -1,13 +1,13 @@
 /* Estilos para el botón de menú */
-div.menu-container {
+.menu-container {
   position: fixed;
   top: 0px;
   left: 0px;
   display: block;
-
+  z-index: 12;
 }
 
-button.button-z-menu {
+.button-z-menu {
   background: none;
   border: none;
   font-size: 30px;
@@ -15,7 +15,7 @@ button.button-z-menu {
   color: aqua;
   margin-left: 1em;
   margin-top: 0.4em;
-  animation: floatAnimation 3s ease-in-out infinite; 
+  animation: floatAnimation 3s ease-in-out infinite;
 }
 
 .icon-x {
@@ -31,17 +31,17 @@ button.button-z-menu {
   left: 0;
   right: 0;
   bottom: 0;
-  margin-top: 13%;
+  margin-top: 2.2em;
   display: block;
   padding: 0px;
-  z-index: 13;
+  z-index: 10;
   overflow: auto;
 }
 
 ul.menu-list {
   padding: 0px;
-  margin-top: 8em;
-  margin-left: 0.5em;
+  margin-top: 10em;
+  margin-left: 1em;
   animation: floatAnimation 3s ease-in-out infinite;
 }
 
@@ -105,5 +105,30 @@ span.menu-icon:hover {
   to {
     opacity: 100;
     transform: translateY(0px);
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 320px) {
+  ul.menu-list {
+    margin-left: 2em;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  ul.menu-list {
+    margin-left: 3em;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 415px) {
+  ul.menu-list {
+    margin-left: 5em;
+  }
+}
+@media screen and (min-width: 416px) and (max-width: 500px) {
+  ul.menu-list {
+    margin-left: 8em;
+  }
+  .menu {
+    margin-top: 7%;
   }
 }

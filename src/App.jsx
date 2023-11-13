@@ -1,15 +1,18 @@
-import PortafolioZ from "./components/subcomponents/portafolio/PortafolioZ";
-import TextPortafolio from "./components/texto/TextPortafolio";
-
+import { Outlet } from "react-router-dom";
+import DownCv from "./components/download/DownCv";
+import ZakdevLogo from "./components/logo/ZakdevLogo";
+import BotonMenu from "./components/nav/BotonMenu";
+import NavZ from "./components/nav/NavZ";
+import Redes from "./components/redes/Redes";
 function App() {
   return (
     <>
-    <>
-      <div className="container-pages">
-        <TextPortafolio />
-        <PortafolioZ />
-      </div>
-    </>
+      <BotonMenu />
+      <NavZ />
+      <DownCv />
+      <ZakdevLogo />
+      <Redes />
+      <Outlet />
     </>
   );
 }

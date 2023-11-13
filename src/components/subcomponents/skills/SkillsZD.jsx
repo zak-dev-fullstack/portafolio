@@ -29,7 +29,7 @@ import idok from "../../../assets/dok.svg";
 import ikub from "../../../assets/kub.svg";
 import iconda from "../../../assets/conda.svg";
 import "./skills.css";
-import Image from "next/image";
+
 const skillsData = [
   {
     imagen: ireact,
@@ -225,7 +225,7 @@ function SkillsZD() {
           <div className="skills-grid">
             <div key={index} className="card">
               <div className="card-image">
-                <Image
+                <img
                   src={skill.imagen}
                   alt="skill img"
                   width={300}

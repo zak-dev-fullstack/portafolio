@@ -1,78 +1,84 @@
-/* Variables generales */
-:root {
-  --font-size-small: 18px;
-  --font-size-medium: 35px;
-  --font-size-large: 40px;
-}
+/* zakdev.css */
 
-/* Estilos para la sección Bio */
-section.section-bio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 15em;
-  margin-bottom: 4em;
-  position: absolute;
-  z-index: 10;
+/* Estilos generales para la sección */
+.section-bio {
   text-align: center;
-  width: 80%;
-  margin-left: 2em;
-  font-weight: bold;
+  padding: 20px;
+  background-color: #000000;
+  border-radius: 10px;
+  margin: 20px;
+  position: absolute;
+  z-index: 9;
+  margin-top: 15em;
 }
 
-h2.bio-titulo {
-  font-size: var( --font-size-large);
+/* Estilos para los títulos */
+.bio-titulo,
+.servicios-titulo {
+  font-size: 1.5em;
   color: aqua;
-  margin-bottom: 1em;
-  margin-top: 1em;
+  margin-bottom: 10px;
 }
-
-h2.servicios-titulo {
-  font-size: var( --font-size-large);
-  font-weight: bold;
-  color: aqua;
-  margin-bottom: 2px;
-  margin-top: 2em;
-}
-
-h2.servicios-titulo:hover,
-h2.bio-titulo:hover {
+.bio-titulo:hover,
+.servicios-titulo:hover {
   color: white;
 }
 
-p.descripcion-bio {
-  font-size: var( --font-size-medium);
-  margin-left: 0%;
-  color: aliceblue;
-  line-height: 3em;
+/* Estilos para la descripción */
+.descripcion-bio {
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.descripcion-bio:hover {
+  color: rgb(38, 255, 0);
 }
 
-/* Estilos para la sección Servicios */
-ul.servicios-list {
+/* Estilos para la lista de servicios */
+.servicios-list {
   list-style: none;
   padding: 0;
-  text-align: center;
-  margin-top: 2em;
-  color: aliceblue;
 }
 
-li.servicio-item {
-  font-size: var(--font-size-medium);
-  margin: 10px 0;
-  margin-bottom: 3em;
-  transition: color 0.3s ease-in-out;
-  line-height: 10px;
+/* Estilos para los elementos de la lista de servicios */
+.servicio-item {
+  font-size: 1.2em;
+  color: white; /* Color azul, puedes cambiarlo según tu preferencia */
+  margin-bottom: 20px;
+  transition: color 0.3s; /* Transición suave para el cambio de color */
 }
 
-li.servicio-item:hover {
+/* Estilos para la lista de servicios en línea */
+.servicios-list.inline {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos para los elementos de la lista de servicios en línea */
+.servicio-item.inline {
+  margin: 0 10px;
+}
+
+/* Cambio de color al pasar el ratón sobre los elementos de la lista de servicios */
+.servicio-item:hover {
   color: greenyellow;
 }
 
+/* Cambio de color al pasar el ratón sobre los elementos de la lista de servicios en línea */
+.servicio-item.inline:hover {
+  color: greenyellow;
+}
 
-  :root {
-    --font-size-small: 20px;
-    --font-size-medium: 30px;
-    --font-size-large: 35px;
+/* Puedes agregar más estilos o ajustar según sea necesario */
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  .servicio-item {
+    margin-bottom: 1em;
   }
-
+  .section-bio {
+    margin-top: 20em;
+    margin-left: 20em;
+    margin-bottom: 10em;
+  
+  }
+}

@@ -1,15 +1,12 @@
-/* eslint-disable react/react-in-jsx-scope */
 import Logozakdev from "./logozakdev.webp";
 import "./logo.css";
-import Link from "next/link";
-import Image from "next/image";
-
+import { Link } from "react-router-dom";
 
 function ZakdevLogo() {
   return (
     <>
-      <Link href="/">
-        <Image src={Logozakdev} className="zakdev-logo" alt="zak-dev-logo" />
+      <Link to={`/portafolio/`}>
+        <img src={Logozakdev} className="zakdev-logo" alt="zak-dev-logo" />
       </Link>
     </>
   );

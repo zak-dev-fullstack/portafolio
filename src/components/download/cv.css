@@ -6,7 +6,7 @@
   justify-content: center;
   pointer-events: all;
   cursor: pointer;
-  z-index: 11;
+  z-index: 12;
   left: 0%;
   width: 48%;
   height: 23px;
@@ -51,4 +51,12 @@
 }
 .link-cv:hover {
   color: aqua;
+}
+@media screen and (min-width: 1281px) and (max-width: 1600px){
+  .text-d {
+    font-size: 22px;
+  }
+  .icono-cv {
+    font-size: 28px;
+  }
 }

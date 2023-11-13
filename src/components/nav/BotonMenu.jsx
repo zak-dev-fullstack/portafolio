@@ -1,5 +1,4 @@
-'use client';
-import React, { useState } from "react";
+import { useState } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { CgMenu } from "react-icons/cg";
 import "./menu.css";
@@ -9,7 +8,7 @@ import {
   GiAlienSkull,
   GiAncientSword,
 } from "react-icons/gi";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 function BotonMenu() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,7 +37,11 @@ function BotonMenu() {
         <nav className="menu">
           <ul className="menu-list">
             <li className="menu-item">
-              <Link className="navlink-item" href="/portafolio" onClick={closeMenu}>
+              <Link
+                className="navlink-item"
+                to={`portafolio/:portafolioId`}
+                onClick={closeMenu}
+              >
                 <span className="menu-icon">
                   <GiAbstract065 />
                 </span>
@@ -48,7 +51,7 @@ function BotonMenu() {
             <li className="menu-item">
               <Link
                 className="navlink-item"
-                href="/skills"
+                to={`skills/:skillsId`}
                 onClick={closeMenu}
               >
                 <span className="menu-icon">
@@ -60,7 +63,7 @@ function BotonMenu() {
             <li className="menu-item">
               <Link
                 className="navlink-item"
-                href="/proyectos"
+                to={`proyectos/:proyectosId`}
                 onClick={closeMenu}
               >
                 <span className="menu-icon">
@@ -72,7 +75,7 @@ function BotonMenu() {
             <li className="menu-item">
               <Link
                 className="navlink-item"
-                href="/zakdev"
+                to={`zakdev/:zakdevId`}
                 onClick={closeMenu}
               >
                 <span className="menu-icon">

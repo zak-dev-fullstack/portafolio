@@ -1,27 +1,22 @@
 @media screen and (min-width: 281px) and (max-width: 320px) {
-  ul.menu-list {
-    margin-left: 2em;
-  }
-  img.zakdev-logo {
-    margin-left: 7.5em;
-  }
   button.boton-cv {
-    width: 42%;
+    width: 43%;
     margin-left: 10em;
   }
 
   img.slide-image {
     margin-top: 1em;
   }
+  .nav-z {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 360px) {
-  ul.menu-list {
-    margin-left: 3em;
+  .nav-z {
+    display: none;
   }
-  img.zakdev-logo {
-    margin-left: 8.5em;
-  }
+
   button.boton-cv {
     width: 40%;
     margin-left: 12em;
@@ -33,12 +28,10 @@
 }
 
 @media screen and (min-width: 361px) and (max-width: 415px) {
-  ul.menu-list {
-    margin-left: 5em;
+  .nav-z {
+    display: none;
   }
-  img.zakdev-logo {
-    margin-left: 10.5em;
-  }
+
   button.boton-cv {
     width: 32%;
     margin-left: 16em;
@@ -56,47 +49,27 @@
   .card-proyecto {
     padding: 0 2px;
   }
-  h2.servicios-titulo {
-    margin-left: 1em;
-  }
-  ul.servicios-list {
-    margin-left: 0.5em;
-  }
+
 }
 
 @media screen and (min-width: 416px) and (max-width: 500px) {
+  .nav-z {
+    display: none;
+  }
   button.button-z-menu {
-    margin-left: 1.5em;
-  }
-  ul.menu-list {
-    margin-left: 8em;
-  }
-  img.zakdev-logo {
-    margin-left: 13em;
+    margin-top: 4%;
+    margin-left: 3em;
   }
   button.boton-cv {
-    width: 30%;
+    width: 28%;
     margin-left: 20em;
+    margin-top: 2%;
   }
 
   img.slide-image {
     margin-top: 2em;
   }
-  section.section-bio {
-    width: 100%;
-  }
-  h2.bio-titulo {
-    margin-left: 3em;
-  }
-  h2.servicios-titulo {
-    margin-left: 2em;
-  }
-  p.descripcion-bio {
-    margin-left: 10%;
-  }
-  ul.servicios-list {
-    margin-left: 2.5em;
-  }
+  
 }
 
 @media screen and (min-width: 501px) and (max-width: 640px) {
@@ -104,38 +77,20 @@
     display: none;
   }
 
-  img.zakdev-logo {
-    margin-left: 3em;
-    margin-top: 3em;
-  }
   button.boton-cv {
     width: 22%;
-    margin-left: 25em;
-    margin-top: 4em;
+    margin-left: 23.5em;
+    margin-top: 2.5em;
   }
 
   img.slide-image {
     margin-top: 2em;
   }
-  section.section-bio {
-    width: 100%;
-  }
-  h2.bio-titulo {
-    margin-left: 3em;
-  }
-  h2.servicios-titulo {
-    margin-left: 2em;
-  }
-  p.descripcion-bio {
-    margin-left: 10%;
-  }
-  ul.servicios-list {
-    margin-left: 2.5em;
-  }
+  
 
   .nav-z {
     margin-top: -21.5em;
-    margin-left: 5em;
+    margin-left: 3em;
   }
   .nav-link-z {
     font-size: 16px;
@@ -152,14 +107,10 @@
     display: none;
   }
 
-  img.zakdev-logo {
-    margin-left: 2em;
-    margin-top: 1em;
-  }
   button.boton-cv {
     width: 18%;
-    margin-left: 31em;
-    margin-top: 4em;
+    margin-left: 38em;
+    margin-top: 0.5em;
   }
 
   .slick-slide .slide-item img.slide-image {
@@ -167,27 +118,23 @@
     margin-top: 2em;
     height: 400px;
   }
-  section.section-bio {
-    width: 100%;
-  }
+  h2.servicios-titulo,
   h2.bio-titulo {
-    margin-left: 3em;
-    font-size: 35px;
-  }
-  h2.servicios-titulo {
-    margin-left: 2em;
-    font-size: 35px;
+    margin-left: 0em;
+    font-size:2em;
   }
 
   p.descripcion-bio {
-    margin-left: 10%;
-    font-size: 30px;
+    margin-left: 0em;
+    font-size: 2em;
   }
   ul.servicios-list {
-    margin-left: 2.5em;
-    font-size: 30px;
+    margin-left: 0em;
+    font-size: 2em;
   }
-
+  .servicio-item{
+    margin-bottom: 15px;
+  }
   .nav-z {
     margin-top: -22em;
     margin-left: 8em;
@@ -212,17 +159,12 @@
     display: none;
   }
 
-  img.zakdev-logo {
-    margin-left: 2em;
-    margin-top: 1em;
-    width: 200px;
-    height: 200px;
-  }
+
   button.boton-cv {
-    width: 18%;
-    margin-left: 43em;
-    margin-top: 4em;
-    height: 30px;
+    width: 13%;
+    margin-left: 50em;
+    margin-top: 0.5em;
+    height: 25px;
   }
   .text-d {
     font-size: 20px;
@@ -236,26 +178,22 @@
     margin-top: 4em;
     height: 600px;
   }
-  section.section-bio {
-    width: 100%;
-  }
+
+  h2.servicios-titulo,
   h2.bio-titulo {
-    margin-left: 3em;
-    font-size: 40px;
-  }
-  h2.servicios-titulo {
-    margin-left: 2em;
-    margin-top: 3em;
+    margin-left: 0em;
+    font-size:3em;
   }
 
   p.descripcion-bio {
-    margin-left: 10%;
-    font-size: 30px;
+    margin-left: 0em;
+    font-size: 2.5em;
   }
   ul.servicios-list {
-    margin-left: 2.5em;
-    margin-top: 3em;
+    margin-left: 0em;
+    font-size: 2em;
   }
+  
 
   .nav-z {
     margin-top: -22em;
@@ -281,17 +219,12 @@
     display: none;
   }
 
-  img.zakdev-logo {
-    margin-left: 2em;
-    margin-top: 1em;
-    width: 200px;
-    height: 200px;
-  }
+
   button.boton-cv {
-    width: 14%;
+    width: 13%;
     margin-left: 65em;
-    margin-top: 1em;
-    height: 30px;
+    margin-top: 1.1em;
+    height: 25px;
   }
   .text-d {
     font-size: 20px;
@@ -299,10 +232,9 @@
   .icono-cv {
     font-size: 25px;
   }
-  .section-portafolio{
+  .section-portafolio {
     margin-left: 1em;
     margin-top: 10em;
-    
   }
   .slick-slide .slide-item img.slide-image {
     width: 85%;
@@ -310,20 +242,22 @@
     height: 600px;
   }
 
+  h2.servicios-titulo,
   h2.bio-titulo {
-    margin-left: 20em;
+    margin-left: 0em;
+    font-size:4em;
   }
-  h2.servicios-titulo {
-    margin-left: 20em;
-    margin-top: 4em;
-  }
+
   p.descripcion-bio {
-    margin-left: 20%;
-        margin-top: 1em;
+    margin-left: 0em;
+    font-size: 3em;
   }
   ul.servicios-list {
     margin-left: 0em;
-    margin-top: 10em;
+    font-size: 2em;
+  }
+  .servicio-item{
+    margin-bottom: 15px;
   }
 
   .nav-z {
@@ -350,34 +284,21 @@
     display: none;
   }
 
-  img.zakdev-logo {
-    margin-left: 6em;
-    margin-top: 1em;
-    width: 200px;
-    height: 200px;
-  }
+
   button.boton-cv {
-    width: 12%;
+    width: 13%;
     margin-left: 80em;
-    margin-top: 1em;
+    margin-top: 1.7em;
     height: 30px;
   }
-  .text-d {
-    font-size: 20px;
-  }
-  .icono-cv {
-    font-size: 25px;
-  }
-  .section-portafolio{
+
+  .section-portafolio {
     margin-left: 10em;
     margin-top: 10em;
-    
   }
   .section-portafolio .card-proyecto .img-proyecto {
-   
     height: 250px !important;
   }
-  
 
   .slick-slide .slide-item img.slide-image {
     width: 90%;
@@ -385,22 +306,23 @@
     height: 450px;
     margin-bottom: 5%;
   }
-
+ 
+  h2.servicios-titulo,
   h2.bio-titulo {
-    margin-left: 20em;
+    margin-left: 0em;
+    font-size:3em;
   }
-  h2.servicios-titulo {
-    margin-left: 20em;
-    margin-top: 4em;
-  }
+
   p.descripcion-bio {
-    margin-left: 20%;
-        margin-top: 1em;
+    margin-left: 0em;
+    font-size: 2em;
   }
   ul.servicios-list {
     margin-left: 0em;
-    margin-top: 10em;
+    font-size: 2em;
+ 
   }
+ 
 
   .nav-z {
     margin-top: -22em;

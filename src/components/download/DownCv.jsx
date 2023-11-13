@@ -13,7 +13,7 @@ function DownCv() {
             <GiBurningBook />
           </i>
         ),
-        href: "/hvzd.pdf", // URL del archivo PDF
+        href: "/hvzd.pdf", 
         download: true,
       },
     ],

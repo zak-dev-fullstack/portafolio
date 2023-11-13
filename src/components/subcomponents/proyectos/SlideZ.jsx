@@ -1,12 +1,11 @@
-"use client";
 import Slider from "react-slick";
-import imgproyecto1 from "@/assets/gifz.gif";
-import imgproyecto2 from "@/assets/gifz.gif";
-import imgproyecto3 from "@/assets/gifz.gif";
+import imgproyecto1 from "../../../assets/gifz.gif";
+import imgproyecto2 from "../../../assets/gifz.gif";
+import imgproyecto3 from "../../../assets/gifz.gif";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slide.css";
-import Image from "next/image";
+
 
 function SlideZ() {
   const settings = {
@@ -25,7 +24,7 @@ function SlideZ() {
       <Slider {...settings} className="custom-slider">
         <div>
           <div className="slide-item">
-            <Image
+            <img
               src={imgproyecto1}
               alt="Portafolio"
               className="slide-image"
@@ -34,7 +33,7 @@ function SlideZ() {
         </div>
         <div>
           <div className="slide-item">
-            <Image
+            <img
               src={imgproyecto2}
               alt="Portafolio"
               className="slide-image"
@@ -43,7 +42,7 @@ function SlideZ() {
         </div>
         <div>
           <div className="slide-item">
-            <Image
+            <img
               src={imgproyecto3}
               alt="Portafolio"
               className="slide-image"
@@ -52,7 +51,7 @@ function SlideZ() {
         </div>
         <div>
           <div className="slide-item">
-            <Image
+            <img
               src={imgproyecto1}
               alt="Portafolio"
               className="slide-image"
@@ -61,7 +60,7 @@ function SlideZ() {
         </div>
         <div>
           <div className="slide-item">
-            <Image
+            <img
               src={imgproyecto2}
               alt="Portafolio"
               className="slide-image"
@@ -70,7 +69,7 @@ function SlideZ() {
         </div>
         <div>
           <div className="slide-item">
-            <Image
+            <img
               src={imgproyecto3}
               alt="Portafolio"
               className="slide-image"

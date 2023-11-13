@@ -1,4 +1,3 @@
-"use client";
 import { useTypingText } from "./useTypingText";
 import "./titulo.css";
 
