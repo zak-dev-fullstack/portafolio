@@ -13,7 +13,7 @@ export default function NavZ() {
       <nav className="nav-z">
         <ul className="nav-header">
           <li className="nav-init">
-            <Link className="nav-link-z" to={`./portafolio/:portafolioId/`}>
+            <Link className="nav-link-z" to={`./portafolio/`}>
               <span className="menu-icon-nav">
                 <GiAbstract065 />
               </span>
@@ -21,7 +21,7 @@ export default function NavZ() {
             </Link>
           </li>
           <li className="nav-skills">
-            <Link className="nav-link-z" to={`./skills/:skillsId/`}>
+            <Link className="nav-link-z" to={`./skills/`}>
               <span className="menu-icon-nav">
                 <GiAlienFire />
               </span>
@@ -29,7 +29,7 @@ export default function NavZ() {
             </Link>
           </li>
           <li className="nav-proyectos">
-            <Link className="nav-link-z" to={`./proyectos/:proyectosId/`}>
+            <Link className="nav-link-z" to={`./proyectos/`}>
               <span className="menu-icon-nav">
                 <GiAlienSkull />
               </span>
@@ -37,7 +37,7 @@ export default function NavZ() {
             </Link>
           </li>
           <li className="nav-zakdev">
-            <Link className="nav-link-z" to={`./zakdev/:zakdevId/`}>
+            <Link className="nav-link-z" to={`./zakdev/`}>
               <span className="menu-icon-nav">
                 <GiAncientSword />
               </span>
