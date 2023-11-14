@@ -1,6 +1,5 @@
 /* zakdev.css */
 
-/* Estilos generales para la sección */
 .section-bio {
   text-align: center;
   padding: 20px;
@@ -12,7 +11,6 @@
   margin-top: 15em;
 }
 
-/* Estilos para los títulos */
 .bio-titulo,
 .servicios-titulo {
   font-size: 1.5em;
@@ -24,7 +22,6 @@
   color: white;
 }
 
-/* Estilos para la descripción */
 .descripcion-bio {
   font-size: 1.2em;
   color: white;
@@ -35,50 +32,63 @@
   color: rgb(38, 255, 0);
 }
 
-/* Estilos para la lista de servicios */
 .servicios-list {
   list-style: none;
   padding: 0;
 }
 
-/* Estilos para los elementos de la lista de servicios */
 .servicio-item {
   font-size: 1.2em;
-  color: white; /* Color azul, puedes cambiarlo según tu preferencia */
+  color: white; 
   margin-bottom: 20px;
-  transition: color 0.3s; /* Transición suave para el cambio de color */
+  transition: color 0.3s; 
 }
 
-/* Estilos para la lista de servicios en línea */
+
 .servicios-list.inline {
   display: flex;
   justify-content: center;
 }
 
-/* Estilos para los elementos de la lista de servicios en línea */
 .servicio-item.inline {
   margin: 0 10px;
 }
 
-/* Cambio de color al pasar el ratón sobre los elementos de la lista de servicios */
 .servicio-item:hover {
   color: greenyellow;
 }
 
-/* Cambio de color al pasar el ratón sobre los elementos de la lista de servicios en línea */
 .servicio-item.inline:hover {
   color: greenyellow;
 }
 
-/* Puedes agregar más estilos o ajustar según sea necesario */
+
+
 @media screen and (min-width: 1281px) and (max-width: 1600px) {
   .servicio-item {
+    
     margin-bottom: 1em;
   }
   .section-bio {
-    margin-top: 20em;
+    margin-top: 15em;
     margin-left: 20em;
     margin-bottom: 10em;
+
   
+  }
+  .servicios-list{
+
+    margin-top: 10%;
+   }
+   .servicios-titulo {
+    margin-top: 10%;
+   }
+   .logo2{margin-top: 60em;
+    position: absolute;
+  top:0%;
+    bottom: 10%;
+    z-index: 10;
+    margin-bottom: 2em;
+    margin-left: 65%;
   }
 }

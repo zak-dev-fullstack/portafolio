@@ -8,7 +8,9 @@ div.slide-container {
   z-index: 10;
   margin-top: 15em;
 }
-
+.custom-slider{
+  width: 100%;
+}
 div.slide-item {
   padding: 0px;
 }
@@ -18,6 +20,7 @@ img.slide-image {
   height: 200px;
   border: 1px solid aqua;
   border-radius: 10px;
+  
 }
 .slick-prev:before,
 .slick-next:before {

@@ -1,7 +1,9 @@
 import "./zakdev.css";
+import logo2 from './zakdevl2.png';
 export default function ZakdevZ() {
   return (
-    <section className="section-bio">
+<div>
+<section className="section-bio">
       <h2 className="bio-titulo">Desarrollador Web</h2>
       <p className="descripcion-bio">
         Diseño y Desarrollo Productos Digitales.
@@ -22,5 +24,10 @@ export default function ZakdevZ() {
         <li className="servicio-item">Cloud Management</li>
       </ul>
     </section>
+
+    <div>
+      <img className="logo2" src={logo2} alt="img" />
+    </div>
+</div>
   );
 }
