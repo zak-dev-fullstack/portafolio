@@ -196,7 +196,7 @@
     margin-bottom: 15px;
   }
   nav.nav-z {
-    margin-top: -22em;
+    margin-top: -21em;
     margin-left: 8em;
   }
   .nav-link-z {
@@ -232,8 +232,8 @@
   }
 
   button.boton-cv {
-    width: 16%;
-    margin-left:40em;
+    width: 14%;
+    margin-left:39em;
     margin-top: 3em;
   }
 
@@ -272,7 +272,7 @@
   }
 
   nav.nav-z {
-    margin-top: -22em;
+    margin-top: -21em;
     margin-left: 12em;
   }
   .nav-link-z {
@@ -296,9 +296,9 @@
   }
 
   button.boton-cv {
-    width: 13%;
-    margin-left: 65em;
-    margin-top: 1.1em;
+    width: 12%;
+    margin-left: 49em;
+    margin-top: 4em;
     height: 25px;
   }
   .text-d {
@@ -343,9 +343,9 @@
     margin-bottom: 15px;
   }
 
-  .nav-z {
-    margin-top: -22em;
-    margin-left: 12em;
+  nav.nav-z {
+    margin-top: -21em;
+    margin-left: 18em;
   }
   .nav-link-z {
     font-size: 30px;
@@ -369,8 +369,8 @@
 
   button.boton-cv {
     width: 13%;
-    margin-left: 80em;
-    margin-top: 1.7em;
+    margin-left: 62em;
+    margin-top: 5em;
     height: 30px;
   }
 
@@ -411,8 +411,8 @@
     font-size: 2em;
   }
 
-  .nav-z {
-    margin-top: -22em;
+  nav.nav-z {
+    margin-top: -21em;
     margin-left: 22em;
   }
   .nav-link-z {
@@ -429,3 +429,4 @@
     animation: floatAnimation 3s ease-in-out infinite;
   }
 }
+
