@@ -232,11 +232,11 @@
   }
 
   button.boton-cv {
-    width: 13%;
-    margin-left: 50em;
-    margin-top: 0.5em;
-    height: 25px;
+    width: 16%;
+    margin-left:40em;
+    margin-top: 3em;
   }
+
   .text-d {
     font-size: 20px;
   }
@@ -271,7 +271,7 @@
     font-size: 2em;
   }
 
-  .nav-z {
+  nav.nav-z {
     margin-top: -22em;
     margin-left: 12em;
   }
