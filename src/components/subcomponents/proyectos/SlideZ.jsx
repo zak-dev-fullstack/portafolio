@@ -11,10 +11,10 @@ function SlideZ() {
     dots: true,
     infinite: true,
     slidesToShow: 1,
-    slidesToScroll: 3,
+    slidesToScroll: 1, 
     autoplay: true,
-    speed: 50000,
-    autoplaySpeed: 0,
+    speed: 1000, 
+    autoplaySpeed: 2500, 
     cssEase: "linear",
     swipeToSlide: true,
   };
