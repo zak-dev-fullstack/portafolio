@@ -174,8 +174,8 @@
 
   button.boton-cv {
     width: 18%;
-    margin-left: 38em;
-    margin-top: 0.5em;
+    margin-left: 28.5em;
+    margin-top: 3em;
   }
 
   h2.servicios-titulo,
@@ -195,7 +195,7 @@
   .servicio-item {
     margin-bottom: 15px;
   }
-  .nav-z {
+  nav.nav-z {
     margin-top: -22em;
     margin-left: 8em;
   }
