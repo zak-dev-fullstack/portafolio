@@ -3,12 +3,12 @@
 .section-bio {
   text-align: center;
   padding: 20px;
-  background-color: #000000;
-  border-radius: 10px;
   margin: 20px;
   position: absolute;
   z-index: 9;
   margin-top: 15em;
+  left: 0%;
+  transform: translateX(0%);
 }
 
 .bio-titulo,
@@ -16,17 +16,24 @@
   font-size: 1.5em;
   color: aqua;
   margin-bottom: 10px;
+  background-color: black;
+  max-width: 100%;
+  border-radius: 20px;
 }
+
 .bio-titulo:hover,
 .servicios-titulo:hover {
   color: white;
 }
 
 .descripcion-bio {
+  background-color: black;
+  max-width: 100%;
   font-size: 1.2em;
   color: white;
   line-height: 1.6;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 .descripcion-bio:hover {
   color: rgb(38, 255, 0);
@@ -42,6 +49,10 @@
   color: white;
   margin-bottom: 20px;
   transition: color 0.3s;
+  background-color: black;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 .servicios-list.inline {
@@ -99,55 +110,98 @@ img.logo2 {
     width: 75%;
     padding: 5%;
   }
+
+  .section-bio {
+    left: 2%;
+    transform: translateX(2%);
+
+  }
 }
 
 @media screen and (min-width: 416px) and (max-width: 500px) {
   img.logo2 {
-    margin-top: 50em;
+    margin-top: 55em;
     margin-bottom: 5%;
     margin-left: 4em;
     width: 75%;
     padding: 5%;
   }
+
+  .section-bio {
+    width:60%;
+    left: 30%;
+    transform: translateX(-25%);
+   
+
+  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 640px) {
   img.logo2 {
-    margin-top: 45em;
+    margin-top: 52em;
     margin-bottom: 5%;
     margin-left: 5em;
     width: 75%;
     padding: 5%;
   }
+  .section-bio {
+    margin-top: 14em;
+    width:45%;
+    left:38%;
+    transform: translateX(-25%);
+
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
   img.logo2 {
-    margin-top: 65em;
+    margin-top: 80em;
     margin-bottom: 5%;
     margin-left: 6em;
     width: 75%;
     padding: 5%;
   }
+  .section-bio {
+    margin-top: 14em;
+    width:55%;
+    left:36%;
+    transform: translateX(-25%);
+
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   img.logo2 {
-    margin-top: 75em;
+    margin-top: 85em;
     margin-bottom: 5%;
     margin-left: 8em;
     width: 75%;
     padding: 5%;
   }
+  .section-bio {
+    margin-top: 14em;
+    width:55%;
+    left:36%;
+    transform: translateX(-25%);
+
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
   img.logo2 {
-    margin-top: 80em;
+    margin-top: 90em;
     margin-bottom: 5%;
     margin-left: 14em;
     width: 65%;
     padding: 5%;
+  }
+
+  .section-bio {
+    margin-top: 14em;
+    width:55%;
+    left:36%;
+    transform: translateX(-25%);
+
   }
 }
 
@@ -167,11 +221,17 @@ img.logo2 {
     margin-top: 10%;
   }
   img.logo2 {
-    margin-top: 75em;
+    margin-top: 80em;
     margin-bottom: 5%;
-    margin-left: 25em;
+    margin-left: 22em;
     width: 50%;
     padding: 5%;
   }
+  .section-bio {
+    margin-top: 14em;
+    width:40%;
+    left:15%;
+    transform: translateX(-15%);
 
+  }
 }

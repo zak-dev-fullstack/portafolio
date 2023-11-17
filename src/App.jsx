@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import Planets from "./components/3d/Planets";
 import DownCv from "./components/download/DownCv";
 import ZakdevLogo from "./components/logo/ZakdevLogo";
 import BotonMenu from "./components/nav/BotonMenu";
@@ -10,8 +11,9 @@ function App() {
       <BotonMenu />
       <NavZ />
       <DownCv />
+      <Planets />
       <ZakdevLogo />
-
+      
       <Redes />
       <Outlet />
     </>

@@ -1,11 +1,16 @@
-#container3d{
-width:100%;
-height: 300px;
-max-width: 500px;
-background: rgb(46, 43, 43);
-color:white;
-left:25%;
-position:absolute;
-z-index: 10;
-top:10%;
-text-align: center;}
+#container3d {
+
+    width: 100%;
+    height: 100vh; 
+    max-width: 600px;
+    background: transparent;
+    color: white;
+    position: relative; 
+    z-index: 0;
+    text-align: center;
+    top: 0;
+    margin-top: 0%;
+    left: 50%; 
+    transform: translateX(-50%);
+  }
+  

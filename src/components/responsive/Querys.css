@@ -39,6 +39,10 @@
   img.slide-image {
     margin-top: 1em;
   }
+
+  div.slide-container {
+    margin-left: -1em;
+  }
   .slide-item img.slide-image {
     margin-top: 2em;
     max-width: 250px;
@@ -106,13 +110,14 @@
     margin-left: 20em;
     margin-top: 2%;
   }
-
-  
+  div.slide-container {
+    margin-left: 2em;
+  }
 
   .slide-item img.slide-image {
     margin-top: 2em;
-    max-width: 300px;
-    height: 200px;
+    max-width: 350px;
+    height: 250px;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -135,9 +140,11 @@
     margin-left: 23.5em;
     margin-top: 2.5em;
   }
-
+  div.slide-container {
+    margin-left: -1em;
+  }
   img.slide-image {
-    margin-top: 2em;
+    margin-top: 0em;
   }
   .slide-item img.slide-image {
     max-width: 400px;
@@ -233,7 +240,7 @@
 
   button.boton-cv {
     width: 14%;
-    margin-left:39em;
+    margin-left: 39em;
     margin-top: 3em;
   }
 
@@ -390,7 +397,9 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+  div.slide-container {
+    margin-left: -2em;
+  }
   .slick-slider {
     margin: 0 auto;
     max-width: 1000px;
@@ -429,4 +438,3 @@
     animation: floatAnimation 3s ease-in-out infinite;
   }
 }
-

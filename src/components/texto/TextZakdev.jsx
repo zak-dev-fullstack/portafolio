@@ -3,7 +3,7 @@ import "./titulo.css";
 
 export default function TextZakdev() {
   const { word } = useTypingText(
-    ["Bio", "Servicios", "Full-Stack Dev"],
+    ["Bio", "Servicios", "Full-Stack"],
     60,
     60,
     60
