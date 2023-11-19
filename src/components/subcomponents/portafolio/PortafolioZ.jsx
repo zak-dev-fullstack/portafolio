@@ -1,6 +1,7 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import "./p.css";
 import imgl from "../../../assets/gifz.gif";
-import { Link } from "react-router-dom";
 
 // Datos del portafolio
 const portafolioData = [
@@ -14,45 +15,41 @@ const portafolioData = [
 
 // Componente PortafolioZ
 function PortafolioZ() {
-  // Estado para controlar el enlace
-
   return (
-    <>
-      <section className="section-portafolio">
-        {portafolioData.map((project, index) => (
-          <div key={index} className="card-proyecto">
-            <div className="img-container">
-              <Link to={project.link}>
-                <img
-                  src={imgl}
-                  loading="lazy"
-                  alt={project.title}
-                  className="img-proyecto"
-                  draggable="false"
-                  width="100"
-                  height="100"
-                />
-              </Link>
-            </div>
-            <div className="button-container">
-              <button
-                className="boton-titulo"
-                onClick={() => window.location.href = project.link}
-              >
-                {project.title}
-              </button>
-              <a
-                href={project.code}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="boton-codigo">GitHub</button>
-              </a>
-            </div>
+    <section className="section-portafolio">
+      {portafolioData.map((project, index) => (
+        <div key={index} className="card-proyecto">
+          <div className="img-container">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={imgl}
+                loading="lazy"
+                alt={project.title}
+                className="img-proyecto"
+                draggable="false"
+                width="100"
+                height="100"
+              />
+            </a>
           </div>
-        ))}
-      </section>
-    </>
+          <div className="button-container">
+            <button
+              className="boton-titulo"
+              onClick={() => window.location.href = project.link}
+            >
+              {project.title}
+            </button>
+            <a
+              href={project.code}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="boton-codigo">GitHub</button>
+            </a>
+          </div>
+        </div>
+      ))}
+    </section>
   );
 }
 

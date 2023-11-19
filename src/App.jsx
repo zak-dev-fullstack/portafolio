@@ -13,7 +13,6 @@ function App() {
       <DownCv />
       <Planets />
       <ZakdevLogo />
-      
       <Redes />
       <Outlet />
     </>
