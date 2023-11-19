@@ -13,7 +13,7 @@ export default function ZakdevZ() {
         <br />
         Experiencia Certificada en Tecnólogias.
         <br />
-        Autodidacta por vocaciòn.
+        Autodidacta.
       </p>
       <h2 className="servicios-titulo">Servicios</h2>
       <ul className="servicios-list">

@@ -23,16 +23,20 @@ export default function Planets() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
     const container = document.createElement("div");
-    container.className = "container3d";
+    container.id = "container3d";
     document.body.appendChild(container);
 
     container.appendChild(renderer.domElement);
+
+    const width = container.clientWidth;
+    const height = container.clientHeight;
+  
 
     const scene = new THREE.Scene();
 
     const camera = new THREE.PerspectiveCamera(
       45,
-      window.innerWidth / window.innerHeight,
+      width / height,
       0.1,
       1000
     );
@@ -45,6 +49,9 @@ export default function Planets() {
     const ambientLight = new THREE.AmbientLight(0x808080);
     scene.add(ambientLight);
 
+    camera.aspect = width / height;
+    camera.updateProjectionMatrix();
+    renderer.setSize(width, height);
     const cubeTextureLoader = new THREE.CubeTextureLoader();
     scene.background = cubeTextureLoader.load([
       starsTexture,
@@ -148,9 +155,12 @@ export default function Planets() {
     });
 
     function handleResize() {
-      camera.aspect = window.innerWidth / window.innerHeight;
+      const newWidth = container.clientWidth;
+      const newHeight = container.clientHeight;
+  
+      camera.aspect = newWidth / newHeight;
       camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
+      renderer.setSize(newWidth, newHeight);
     }
 
     window.addEventListener("resize", handleResize);

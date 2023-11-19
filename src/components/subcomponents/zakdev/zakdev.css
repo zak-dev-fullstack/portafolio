@@ -27,17 +27,17 @@
 }
 
 .descripcion-bio {
-  background-color: rgb(54, 52, 52);
+  background-color: rgb(26, 26, 26);
   max-width: 100%;
   font-size: 1.2em;
-  color: white;
+  color: rgb(254, 250, 250);
   line-height: 1.6;
   margin-bottom: 20px;
   border-radius: 20px;
 
 }
 .descripcion-bio:hover {
-  color: rgb(38, 255, 0);
+  color: aqua;
 }
 
 .servicios-list {
@@ -222,7 +222,7 @@ img.logo2 {
     margin-top: 10%;
   }
   img.logo2 {
-    margin-top: 75em;
+    margin-top: 80em;
     margin-bottom: 5%;
     margin-left: 23em;
     width: 50%;
