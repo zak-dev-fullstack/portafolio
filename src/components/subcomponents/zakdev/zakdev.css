@@ -34,6 +34,7 @@
   line-height: 1.6;
   margin-bottom: 20px;
   border-radius: 20px;
+
 }
 .descripcion-bio:hover {
   color: rgb(38, 255, 0);
@@ -221,9 +222,9 @@ img.logo2 {
     margin-top: 10%;
   }
   img.logo2 {
-    margin-top: 80em;
+    margin-top: 75em;
     margin-bottom: 5%;
-    margin-left: 22em;
+    margin-left: 23em;
     width: 50%;
     padding: 5%;
   }

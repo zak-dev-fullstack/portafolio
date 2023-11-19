@@ -21,12 +21,21 @@ function PortafolioZ() {
   const [githubLink, setGithubLink] = useState(
     "https://github.com/zak-dev-fullstack"
   );
+  const [flippedCard, setFlippedCard] = useState(null);
+
+  const handleCardClick = (index) => {
+    setFlippedCard(index);
+  };
+
+  const handleCardMouseLeave = () => {
+    setFlippedCard(null);
+  };
 
   return (
 <>
 <section className="section-portafolio">
       {portafolioData.map((project, index) => (
-        <div key={index} className="card-proyecto">
+        <div key={index} className="card-proyecto ">
           <div className="img-container">
             <img src={imgl} loading="lazy"  alt={project.title} className="img-proyecto" draggable="false" width="100" height="100"/>
           </div>
