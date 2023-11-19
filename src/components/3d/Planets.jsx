@@ -42,7 +42,7 @@ export default function Planets() {
     camera.position.set(0, 0, 200);
     orbit.update();
 
-    const ambientLight = new THREE.AmbientLight(0x333333);
+    const ambientLight = new THREE.AmbientLight(0x808080);
     scene.add(ambientLight);
 
     const cubeTextureLoader = new THREE.CubeTextureLoader();

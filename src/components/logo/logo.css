@@ -47,6 +47,7 @@ img.zakdev-logo.clicked {
 @media screen and (min-width: 321px) and (max-width: 360px) {
   img.zakdev-logo {
     margin-left: 8.5em;
+    margin-top: 3em;
   }
 }
 @media screen and (min-width: 361px) and (max-width: 415px) {

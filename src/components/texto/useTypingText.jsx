@@ -74,7 +74,7 @@ export const useTypingText = (words, keySpeed = 1000, maxPauseAmount = 10) => {
 
   return {
     word: (
-      <div className="typed-text-container" style={{ width: `${longestWord.current * 12}px`, whiteSpace: 'nowrap' }}>
+      <div className="typed-text-container" style={{ width: `${longestWord.current * 10}px`, whiteSpace: 'nowrap' }}>
         <span className={`word ${currentWord.length ? "full" : "empty"}`}>
           <span>{currentWord.length ? currentWord.join("") : ""}</span>
         </span>

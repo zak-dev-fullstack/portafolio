@@ -23,11 +23,12 @@ function PortafolioZ() {
   );
 
   return (
-    <section className="section-portafolio">
+<>
+<section className="section-portafolio">
       {portafolioData.map((project, index) => (
         <div key={index} className="card-proyecto">
           <div className="img-container">
-            <img src={imgl} alt={project.title} className="img-proyecto" />
+            <img src={imgl} loading="lazy"  alt={project.title} className="img-proyecto" draggable="false" width="100" height="100"/>
           </div>
           <div className="button-container">
             <button
@@ -36,13 +37,13 @@ function PortafolioZ() {
             >
               {project.title}
             </button>
-            <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            <a  href={githubLink} target="_blank" rel="noopener noreferrer">
               <button className="boton-codigo">GitHub</button>
             </a>
           </div>
         </div>
       ))}
-    </section>
+    </section></>
   );
 }
 

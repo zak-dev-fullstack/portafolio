@@ -1,56 +1,128 @@
 div.titulo {
   font-size: 35px;
-  color: rgb(2, 2, 2);
+  color: rgb(0, 0, 0);
   font-weight: bold;
-  padding: 0px;
+  padding: 1px;
   display: inline-block;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.1s ease-in-out;
   margin-top: 5em;
   margin-left: 0em;
   text-align: center;
   align-items: center;
   position: absolute;
-  left: 50%; 
-  transform: translateX(-50%); 
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 10;
   white-space: nowrap;
-
+  border-radius: 50px;
+  width: 55%;
+  padding: 1px;
+  max-height: 3px;
 }
 
 div.titulo:hover {
-  color: aqua;
+  color: rgb(249, 250, 251);
 }
 
-@media screen and (min-width: 416px) and (max-width: 500px){
-
-  div.titulo{
-    margin-left: 1.5em;
-    font-size: 40px;
-    margin-top: 4.5em;
+/* Animación para el fondo */
+@keyframes backgroundAnimation {
+  0% {
+    background-position: 20% 50%;
   }
+  50% {
+    background-position: 500% 550%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.titulo {
+  background: linear-gradient(90deg, #030303 0%, #0036f8 150%, greenyellow 100%);
+  background-size: 500% 200%;
+  animation: backgroundAnimation 10s infinite; /* Ajusta la duración según sea necesario */
+}
+
+/*****************/
+@media screen and (min-width: 281px) and (max-width: 320px) {
+  div.titulo {
+    margin-left: 15px;
+    padding: 10px;
+    width: 54%;
+    text-align: center;
+    margin-top: 5em;
+    max-height: 55px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 360px) {
+  div.titulo {
+   
+    width: 50%;
+    padding: 1px;
+    max-height: 3px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 415px) {
+  div.titulo {
+
+    width: 50%;
+    padding: 1px;
+    max-height: 3px;
+    margin-left: 15px;
   
+  }
+}
+
+@media screen and (min-width: 416px) and (max-width: 500px) {
+  div.titulo {
+    width: 40%;
+    padding: 1px;
+    max-height: 3px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 640px) {
+  div.titulo {
+    width: 30%;
+    padding: 1px;
+    max-height: 3px;
+    margin-left: 15px;
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
-  div.titulo{
-    margin-top: 3.5em;
-    font-size: 50px;
- 
+  div.titulo {
+    width: 28%;
+    padding: 1px;
+    max-height: 3px;
+    margin-left: 15px;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  div.titulo{
-    margin-top: 2.5em;
-    font-size: 65px;
- 
+  div.titulo {
+    /* Propiedades para esta resolución */
+    width: 22%;
   }
 }
-@media screen and (min-width: 1281px) and (max-width: 1600px){
-  div.titulo{
-    margin-top: 3em;
-    font-size: 60px;
-    margin-left: -1em;
- 
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  div.titulo {
+    width: 20%;
+    padding: 1px;
+    max-height: 3px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1600px) {
+  div.titulo {
+    padding: 1px;
+    width: 18%;
+    margin-top: 5em;
   }
 }

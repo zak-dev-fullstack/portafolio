@@ -10,7 +10,9 @@ export default function TextPortafolio() {
   );
   return (
     <>
-      <div className="titulo">{word}</div>
+       <div className="titulo">{word}</div>
+  
+     
     </>
   );
 }

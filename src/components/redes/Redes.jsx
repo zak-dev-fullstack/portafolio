@@ -15,7 +15,7 @@ function Redes() {
       <Link to={`https://wa.me/573187716434`} target="_blank">
         <FaWhatsapp className="iconos-redes" />
       </Link>
-      <Link to={`https://discord.gg/Jnp2H2sB`} target="_blank">
+      <Link to={`https://discord.gg/H6QgkYru9f`} target="_blank">
         <BsDiscord className="iconos-redes" />
       </Link>
     </div>
