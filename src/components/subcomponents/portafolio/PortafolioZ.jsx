@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import "./p.css";
 import imgl from "../../../assets/gifz.gif";
 
